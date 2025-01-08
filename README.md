@@ -28,3 +28,8 @@ The **Personal Finance Management Application** helps individuals manage their p
 1. **Clone the repository**:
    ```bash
    git clone <repository_url>
+
+2. ** Navigate to the project folder**:
+     ```bash
+     cd <project_folder>
+   
