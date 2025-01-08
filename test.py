@@ -3,8 +3,7 @@ import sqlite3
 from io import StringIO
 import sys
 
-# Assuming the functions are already present in your 'app.py' file
-# import the necessary functions from your app module
+
 from app import create_database, register_user, login_user, add_transaction, update_transaction, delete_transaction
 
 class TestFinanceApp(unittest.TestCase):
@@ -103,7 +102,6 @@ class TestFinanceApp(unittest.TestCase):
 
         self.assertIsNone(transaction, "Transaction should be deleted successfully")
 
-    # Add more tests as needed...
 
 if __name__ == '__main__':
     unittest.main()
